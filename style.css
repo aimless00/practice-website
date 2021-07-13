@@ -1,0 +1,91 @@
+/* font styles */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* Body Styles */
+body{
+    background-color: #f2f2f2;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Main section styles */
+.services-section{
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+}
+.service{
+    text-align: center;
+    margin-top: 15%;
+}
+.service-title{
+    color: indigo ;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.service-details{
+    color: #6733e2;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 31px 0 0;
+}
+.sevice-img{
+    width: 70%;
+    background-image: url(images/bgp-1.jpg);
+    background-position: center;
+    background-size:cover;
+}
+  
+.link-1 a{
+    text-decoration: none;
+    padding: 15px;
+    background-color: rgb(233, 236, 19);
+    border-radius: 10px;
+    color: rgb(49, 45, 45);
+}
+.link-1 a:hover{
+    background-color: rgb(53, 28, 100);
+    color: #ffffff;
+}
+
+
+/*----------
+ devlopment Styles
+ ----------------- */
+
+.devlopment-section{
+    background-color: #6733e2;
+    padding-bottom: 50px;
+}
+.devlopment{
+    margin-top: 15px;
+}
+.devlopment-title{
+    text-align: center;
+    padding-top: 15px;
+}
+.devlopment-title h1{
+    color: #f8dd28;
+    font-size: 3.25em;
+}
+.devlopment-title p{
+    color: #ffff;
+    font-size: 1.25rem;
+    margin: 7px auto 0;
+}
+
+/* devlopment catogory styles */
+ .devlopment-catagories{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     margin-left: 10%;
+
+ } 
+.devlopment-catagory{
+    width: 190px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 55px;
+}
+.devlopment-catagory, .link-1 a{
+    text-align: center;
+}
